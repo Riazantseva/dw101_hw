@@ -1,0 +1,71 @@
+import string
+import random
+
+StudentsList{}
+
+
+class Student:
+  def __init__(self, Name,FamilyName, email, Marks, result=0):
+    self.Name=Name
+    self.FamilyName=FamilyName
+    self.email=email
+    self.Marks=[]
+    self.result=result
+   
+  def calc.result(self)
+    x=0
+    For Marks in self.Marks
+      x=x+Marks
+      self.result=self.result/len(self.Marks)
+      
+      
+def add.students
+  NewStudent=input("Name,FamilyName, email, Marks").split
+  StudentID =''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
+  StudentsList[StudentID]=NewStudent
+  print (StudentsList)
+  
+  
+        
+z=input("enter 0 to add a student \n, enter 1 to show students list \n, enter 2 and ID to show students info, enter 3 and ID to change students result, enter 4 and ID to delete a student").split()
+
+  if z(0)=1:
+    #функция добавления юзверей
+    input ("add a student: Name, FamilyName, email, Marks ")
+  if z(0)=2:
+    print(StudentsList{})  
+  if z(0)=3:
+    #Замена значения Marks
+    print(StudentsList{})
+  if z(0)=4: 
+    #удаление элемента 
+    
+    
+    
+def EnterSt()
+  z=input("enter 0 to add a student \n, enter 1 to show students list \n, enter 2 and ID to show students info, enter 3 and ID to change students result, enter 4 and ID to delete a student")   ") 
+  if z=0:
+    input ("add a student: Name, FamilyName, email, Marks ")
+  if z=1:
+    print(StudentsList{})  
+  if z=2:
+    print(StudentsList{})
+In [0]:
+import string
+import random
+StudentsList{}
+
+def add_students():
+  NewStudent=input("Name,FamilyName, email, Marks").split
+  StudentID =''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
+  StudentsList[StudentID]=NewStudent
+  print (StudentsList)
+  
+a=add_students()
+  File "<ipython-input-7-51342d2b0bd0>", line 3
+    StudentsList{}
+                ^
+SyntaxError: invalid syntax
+In [0]:
+a=add_students()
+a
